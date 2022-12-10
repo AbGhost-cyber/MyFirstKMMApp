@@ -1,8 +1,8 @@
 package com.crushtech.myfirstkmmapp.data.note
 
 import com.crushtech.myfirstkmmapp.database.NoteDatabase
-import com.crushtech.myfirstkmmapp.domain.note.NoteDataSource
 import com.crushtech.myfirstkmmapp.domain.note.Note
+import com.crushtech.myfirstkmmapp.domain.note.NoteDataSource
 import com.crushtech.myfirstkmmapp.domain.time.DateTimeUtil
 
 class SqlDelightNoteDataSource(db: NoteDatabase) : NoteDataSource {
